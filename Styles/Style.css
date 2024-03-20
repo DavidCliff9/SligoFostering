@@ -42,7 +42,7 @@ aside{
     float:right;
     width: 15%;
     border: 1px solid black;
-    height: 1000px;
+    height: 999px;
     text-align: center;
     background-color: darkgrey;
     padding-bottom: 0px;
@@ -62,9 +62,10 @@ header {
 }
 
 h2{
-color: rgb(188, 176, 176);
+color: rgb(1, 147, 4);
 text-align: center;
-font-family: 'Courier New', Courier, monospace;
+text-decoration: dashed;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #Heading{
@@ -104,8 +105,6 @@ ul li {
 }
 
 .link{
-    border: solid 1px black ;
-    background-color: lightblue;
     text-decoration: none;
     color: black;
     border-radius: 2px;
@@ -113,9 +112,9 @@ ul li {
 }
 
 #Currentlink{
-    border: solid 1px black ;
-    background-color: blue;
-    text-decoration: none;
+
+    background-color: rgba(189, 198, 187, 0.308);
+    text-decoration: underline;
     color: black;
     border-radius: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -124,6 +123,16 @@ ul li {
 p{
     color: white;
     justify-self: auto;
+}
+
+aside p {
+    color: white;
+    justify-self: auto;
+}
+
+aside h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
 }
 
 footer{
