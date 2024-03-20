@@ -2,11 +2,20 @@ body{
     width: 100%;
     margin: 15px auto;
     background-color: grey;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    padding-left: 5px;
 }
 
 #Title{
     float: right;
-    color: black;
+    color: rgb(60, 16, 237);
+    text-decoration: double;
+    padding-right: 10px;
 }
 
 main{
@@ -17,8 +26,8 @@ main{
 }
 
 #MainImage{
-    margin-right: 30%;
-    margin-left: 15%;
+    margin-right: 15%;
+    margin-left: 25%;
     width: 50%;
     float: none;
     border: 1px solid blue;
@@ -41,24 +50,32 @@ aside{
 }
 
 header {
-    background-image: url(../Images/dog-cat-field-animals.jpg);
+    background-image: url(../Images/dogs_competition-wallpaper-5120x2160.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     color: navajowhite;
-    border: 1px solid blue;
+    border: 1px solid black;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 
 h2{
-color: white;
+color: rgb(188, 176, 176);
 text-align: center;
 font-family: 'Courier New', Courier, monospace;
 }
 
+#Heading{
+    color: rgb(135, 206, 143);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
 .Heading{
-    color: whitesmoke;
+    color: rgb(150, 190, 155);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: underline;
@@ -68,7 +85,7 @@ nav{
     margin-top: 0px;
     padding-top: 5px;
     height: 50px;
-    background-color: blue;
+    background-color: rgb(150, 223, 40);
     padding-bottom: 25px;
 }
 
@@ -111,8 +128,7 @@ p{
 
 footer{
     height: 50px;
-    background-color: blue;
-    width: 100%;;
+    background-color: rgb(0, 255, 76);
     font-family: 'Courier New', Courier, monospace;
     padding-top: 0px;
     margin-top: 0px;
