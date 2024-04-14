@@ -9,20 +9,25 @@ body{
 
 p{
     padding-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #Title{
-    float: right;
-    color: rgb(60, 16, 237);
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(41, 58, 244);
     text-decoration: double;
     padding-right: 10px;
+    padding-top: 10px;
 }
 
 main{
-    height: 1000px;
+    height: 1500px;
     border: 1px solid black;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 5px;
 }
 
 #MainImage{
@@ -30,7 +35,7 @@ main{
     margin-left: 25%;
     width: 50%;
     float: none;
-    border: 1px solid blue;
+    border: 1px solid #33cc33;
 }
 
 section{
@@ -42,11 +47,28 @@ aside{
     float:right;
     width: 15%;
     border: 1px solid black;
-    height: 999px;
-    text-align: center;
+    height: 1499px;
+    padding-left: 20px;
     background-color: darkgrey;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    
+
+}
+
+#titleBreak{
+    margin-left: 20px;
+}
+
+.asideHeading{
+    text-align: center;
+}
+
+#asideList{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header {
@@ -62,31 +84,35 @@ header {
 }
 
 h2{
-color: rgb(1, 147, 4);
+color: rgb(5, 173, 16);
 text-align: center;
 text-decoration: dashed;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #Heading{
-    color: rgb(135, 206, 143);
+    color: rgb(6, 162, 58);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:solid;
+    font-size: 50px;
 }
 
 .Heading{
-    color: rgb(150, 190, 155);
+    color: rgb(49, 205, 67);
+    font-size: xx-large;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: dotted;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 nav{
     margin-top: 0px;
     padding-top: 5px;
     height: 50px;
-    background-color: rgb(150, 223, 40);
+    background-color: #33cc33;
     padding-bottom: 25px;
 }
 
@@ -97,7 +123,7 @@ nav ul{
     height: 50px;
 }
 
-ul li {
+nav ul li{
     padding: 5px;
     display: inline;
     text-align: center;
@@ -133,14 +159,178 @@ aside p {
 aside h3{
     font-family: 'Courier New', Courier, monospace;
     text-decoration: underline;
+    color: #1fe51f;
 }
 
 footer{
     height: 50px;
-    background-color: rgb(0, 255, 76);
+    background-color: #33cc33;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 1px;
     margin-top: 0px;
     text-align: center;
 }
 
+#list{
+    height: 300px;
+    width: 50%;
+    float: left;
+    overflow: auto;
+    background-color: rgb(114, 114, 114);
+    margin-left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list{
+    height: 300px;
+    width: 50%;
+    float: left;
+    overflow: auto;
+    background-color: rgb(114, 114, 114);
+    margin-left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#listImage{
+    height: 300px;
+    width: 40%;
+    border: 1px solid black;
+
+}
+
+.VetImage{
+    height: 250px;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.VetTitle{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: underline;
+
+}
+
+.VetLeft{
+    margin-left: 31%;
+}
+
+.VetR{
+    margin-left: 45%;
+}
+
+#Closing{
+    margin-left: 300px;
+}
+
+table{
+    margin-right: 15%;
+    margin-left: 20%;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    color: #ecffea;
+    border-spacing: 10px;
+    border: 1px solid black;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid rgb(157, 9, 9);
+    padding: 5px
+}
+
+td{
+    background-color: #919090;
+}
+
+th{
+    width: 25%;
+    background-color: #616161;
+    font-size: larger;
+    font-size: larger;
+    color: #cccccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.tableTitle{
+    background-color: #616161;
+    font-size: larger;
+    color: #cccccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.breadcrumb{
+    float: left
+}
+
+
+
+form{
+    border: 1px solid;
+    vertical-align: middle;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+    
+}
+
+label{
+    vertical-align: middle;
+    padding-right: 50px;
+}
+
+.textLabel{
+    text-decoration: dashed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:focus{
+    outline: 0;
+}
+
+.plain{
+text-decoration: none;
+color: unset;
+}
+
+#returnHome{
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #33cc33;
+    border: 1px solid blue;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+.returnHome{
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #33cc33;
+    border: 1px solid blue;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+.asideText{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top:5px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+#asideFollow{
+    position: fixed;
+}
