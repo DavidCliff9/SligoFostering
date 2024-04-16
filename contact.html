@@ -3,9 +3,11 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="Sligo Fostering" content="Sligo Fostering's contact form get in touch with us">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Sligo Fostering</title>
+        <meta name="description" content="Sligo Fostering's contact form get in touch with us">
+        <meta name="keywords" content="Get in contact, reach out, contact, question">
+        <meta name="author" content="Univeristy Student">
         <link rel="StyleSheet" href="Styles/Style.css">
         <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
     </head>
@@ -50,16 +52,17 @@
         <section>
             <a id="QuestionForm"></a>
             <h2 class="Heading">Got a Question?</h2>
-            <form action="supplies.html" method="get">
+            <form id="Query" method="get" action="supplies.html">
+
                 <label style="color: red;">*</label><label class="textLabel">Your Question</label> <br>
-                <textarea cols="30" rows="6" class="message" placeholder="Type in your question" required></textarea> <br>
+                <textarea cols="30" rows="6" id="query" placeholder="Type in your question" required name="Query"></textarea> <br>
                 <label> </label><label class="textLabel">Name</label> <br>
-                <textarea cols="30" rows="1" class="message" placeholder="Enter your name"></textarea> <br>
+                <textarea cols="30" rows="1" class="message" placeholder="Enter your name" name="Name"></textarea> <br>
                 <label style="color: red;">*</label><label class="textLabel" >Return Email</label> <br>
-                <textarea cols="30" rows="1" class="message" placeholder="Enter email address" required></textarea> <br>
+                <textarea cols="30" rows="1" id="email" placeholder="Enter email address" required name="Email"></textarea> <br>
                 <br>
-                <input type="checkbox">Subscribe for updates <br> <hr>
-                <input type="submit" id="button">
+                <input type="checkbox" name="Subscribe">Subscribe for updates <br> <hr>
+                <input type="submit" id="button" value="Submit">
                 </form>
         
         </section>
